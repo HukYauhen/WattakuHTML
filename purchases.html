@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SHOPPING</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"/>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link href="styles.css" rel="stylesheet"/>
+  <style>
+  .huk-list {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 0.6em;
+  }
+  .huk-img-2 {
+    width: 100%;
+    padding: 0.6em;
+    border-radius: 28px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+  }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+    <a class="navbar-brand p-0" href="wattaku.html">
+      <img src="WattakU!.png" alt="Logo" width="255">
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="wattaku.html">Main</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="wattaku_now.html">Wattaku Now!!!</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="calc.html">Simple Calculator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="discount.html">Discount Calculator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="weight.html">Weight Calculator</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div class="container text-center my-3">
+    <div class="row">
+<div class="col-lg-6 col-md-8 mx-auto">
+      <img class="huk-img-2" src="money.jpg" alt="Purchases"/>
+      <h3 class="fw-bold">
+      SHOPPING
+      </h3>
+</div>
+</div>
+</div>
+<div class="container text-center my-3">
+    <div class="row">
+<div class="col-lg-6 col-md-8 mx-auto">
+<div class="card border-dark mb-3" style="max-width: auto;">
+  <div class="card-header">
+	<p><h5>Your current check</h5></p>
+	<p><h6>(mark the price of the purchased item)</h6></p>
+</div>
+  <div class="card-body text-dark">
+    <h2 class="card-title">100.00</h2>
+    <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Enter planned check" aria-label="Recipient's username" aria-describedby="button-addon2">
+    <button class="btn btn-primary" type="button" id="button-addon2">Save Check</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<ul class="list-group col-lg-6 col-md-8 mx-auto">
+<div class="card border-dark mb-3" style="max-width: auto;">
+<div class="card-header">
+	<p><h5>Your shopping list</h5></p>
+	<p><h6>(mark the purchased item)<h6></p>
+</div>
+  <div class="card-body text-dark">
+  <li class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+    <label class="form-check-label" for="firstCheckbox">First checkbox</label>
+  </li>
+  <li class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+    <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
+  </li>
+  <li class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+    <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
+  </li>
+</div>
+</div>
+</div>
+</ul>
+<div class="col-lg-6 col-md-8 mx-auto text-center">
+      <a href="wattaku.html" class="btn btn-primary">Finish shopping
+      </a>
+      <a href="wattaku_now.html" class="btn btn-warning">Pause shopping
+      </a>
+</div>
+<p></p>
+<div class="sticky-bottom">
+<h6 class="huk-author text-center">2022. Author & Design Yauhen Huk</h6>
+</div>
+</body>
+</html>
